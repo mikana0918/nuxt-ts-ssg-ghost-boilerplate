@@ -10,8 +10,11 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { ghostAPI, postIndexFields } from '@/service/ghost/ghost'
+import { ghostAPI, postIndexFields } from '~/service/ghost/ghost.ts'
 
+/**
+ * Sample article loop.
+ */
 export default Vue.extend({
   async asyncData() {
     const posts = await ghostAPI().posts.browse({

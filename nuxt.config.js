@@ -52,7 +52,8 @@ export default {
   build: {},
 
   env: {
-    GHOST_API_KEY: 'a2b7491b229723455dc9e65704',
-    GHOST_APP_URL: 'http://localhost:2368',
+    GHOST_API_KEY: 'YOUR_GHOST_API_KEY',
+    GHOST_APP_URL: 'YOUR_GHOST_APP_URL',
+    GHOST_API_VERSION: 'v2',
   },
 }

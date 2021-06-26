@@ -1,13 +1,14 @@
 import GhostContentAPI from '@tryghost/content-api'
 
-const API_KEY = process.env.GHOST_API_KEY
-const APP_URL = process.env.GHOST_APP_URL
+const API_KEY = process.env.GHOST_API_KEY || ''
+const APP_URL = process.env.GHOST_APP_URL || ''
+const API_VER = process.env.GHOST_API_VERSION || ''
 
-const ghost = (url, key) => {
+const ghost = (url: string, key: string) => {
   return new GhostContentAPI({
     url,
     key,
-    version: 'v2',
+    version: API_VER,
   })
 }
 

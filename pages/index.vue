@@ -13,12 +13,21 @@
           Documentation
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/mikana0918/nuxt-ts-ssg-ghost-boilerplate"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
         >
           GitHub
+        </a>
+        <a
+          href="/sample"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--green"
+          style="margin-left: 15px"
+        >
+          Sample Article Page
         </a>
       </div>
     </div>
